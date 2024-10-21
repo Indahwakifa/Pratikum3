@@ -1,0 +1,16 @@
+# Input the number of values
+n = int(input("Masukkan jumlah bilangan yang ingin diinput: "))
+
+# Initialize max value to 0
+max_value = 0
+
+# Loop through the number of values
+for i in range(1, n+1):
+    number = int(input(f"Masukkan bilangan ke-{i}: "))
+    
+    # Check if the current number is greater than the current max
+    if number > max_value:
+        max_value = number
+
+# Output the maximum number
+print(f"Bilangan terbesar adalah: {max_value}")
