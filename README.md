@@ -1,4 +1,4 @@
-# Praktikum 3 - Tipe Data, Variable, dan Operator
+(# Praktikum 3 - Tipe Data, Variable, dan Operator
 
 Nama :indah wafikah
 
@@ -35,4 +35,4 @@ else:
 ```
 
 ## hasil kode program
-![foto]
+![foto](https://github.com/Indahwakifa/Flow-chart/blob/841e85e121070df48c53a34f9838035486966ed1/IMG-20241021-WA0122.jpg) 
