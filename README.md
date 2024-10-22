@@ -33,6 +33,36 @@ if largest == float('-inf'):
 else:
     print("The largest number is:", largest)
 ```
+## penjelasan kode program
+
+```python
+maxBilangan = float('-inf')  # -∞
+count = 0
+```
+
+N = int(input("Masukkan jumlah bilangan: "))
+Bagian ini meminta pengguna untuk memasukkan jumlah bilangan yang akan dimasukkan (dalam bentuk bilangan bulat). Fungsi input() mengambil input dari pengguna, lalu int() mengubahnya menjadi tipe data integer.
+
+```python
+max_num = 0
+
+Di sini, variabel max_num diinisialisasi dengan nilai 0. Variabel ini akan digunakan untuk menyimpan bilangan terbesar yang ditemukan dalam proses loop
+```
+for i in range(1, N+1): num = int(input(f"Masukkan bilangan ke-{i}: "))
+
+Bagian ini adalah loop for yang berjalan sebanyak N kali, mulai dari 1 hingga N. Pada setiap iterasi, pengguna diminta untuk memasukkan bilangan melalui input(). Setiap bilangan yang dimasukkan dikonversi menjadi tipe integer dan disimpan dalam variabel num.
+
+```python
+if num > max_num:
+    max_num = num
+```
+Pada setiap iterasi, bilangan yang dimasukkan `(num)` akan dibandingkan dengan `max_num`. Jika `num` lebih besar dari `max_num`, maka `max_num` akan diperbarui dengan nilai `num`. Hal ini memastikan bahwa `max_num` selalu menyimpan bilangan terbesar yang ditemukan sejauh ini.
+
+```python
+print("Bilangan terbesar adalah:", max_num)
+```
+Setelah loop selesai, program akan mencetak nilai dari max_num, yaitu bilangan terbesar yang ditemukan dari seluruh input.
 
 ## hasil kode program
+
 ![foto](https://github.com/Indahwakifa/Flow-chart/blob/841e85e121070df48c53a34f9838035486966ed1/IMG-20241021-WA0122.jpg) 
