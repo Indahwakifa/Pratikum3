@@ -13,8 +13,8 @@ Mata Kuliah : Bahasa Pemograman
 program ini menentukan bilangan terbesar dari serangkaian bilangan yang di inputkan hingga input 0,program ini menggunakan loop `while` dan kondisi `if` untuk memperbarui nilai terbesar yang ditemukan
 
 ## Flowchart Program
-![Foto](https://github.com/Indahwakifa/Flow-chart/blob/d481cd30572e66f9de422a85779f3337fdc4d1a5/IMG-20241021-WA0112.jpg) 
-
+![Foto](
+https://github.com/Indahwakifa/Flow-chart/blob/d6c2934a6e72e2f1d269e0181d97fbaa42d76c06/IMG-20241022-WA0401.jpg) 
 ```python
 largest = float('-inf')  # Menginisialisasi Largest dengan -∞
 
